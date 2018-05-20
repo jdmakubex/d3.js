@@ -1,0 +1,73 @@
+.axis .domain {
+  display: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+html {
+  min-height: 100%;
+  position: relative;
+}
+
+img{
+display:block;
+margin:auto;
+}
+
+svg {
+  font: 10px sans-serif;
+  padding: 10px 0 0 10px;
+}
+
+.arc {
+  stroke: #fff;
+}
+
+
+body {
+			background:url("http://www.destadesign.com/destacms/images/background_border_left.png")
+			left repeat-y,url("http://www.destadesign.com/destacms/images/background_border_right.png") 
+			right repeat-y;
+			text-align: center;
+			font: 10px sans-serif;
+			 margin: 0;
+ 			 margin-bottom: 40px;
+		}
+
+/*
+        footer {
+            /* Altura total del footer en px con valor negativo */
+/*            margin-top: -15px;
+            /* Altura del footer en px. Se han restado los 5px del margen
+               superior mas los 5px del margen inferior
+            */
+  /*          height: 85px;
+            padding:5px 0px;
+            clear: both;
+            background: #286af0;
+            text-align: center;
+            font-size: 50%;
+            color: #fff;
+        }
+
+ 
+        /* Esta clase define la anchura del contenido y la posicion centrada 
+           El contenido queda centrado y limitado, pero la cabecera y el pie
+           llegan hasta los limites del navegador.
+        */
+/*
+	    footer{
+		 	background-color: #929497;
+		  	position: absolute;
+		  	bottom: 0;
+    		right: 1px;
+		  	width: 100%;
+		  	height: 85px;
+		  	color: white;
+		   	text-align: center;
+		    font-size: 75%;
+		    color: #fff;
+		    padding:5px 0px;
+		    clear: both;
+        }
+*/
